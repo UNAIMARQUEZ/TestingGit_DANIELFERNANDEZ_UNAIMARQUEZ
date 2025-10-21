@@ -1,0 +1,15 @@
+# === Configuración de GIT LFS (Large File Storage) ===
+# Archivos 3D que deben almacenarse con LFS
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.stl filter=lfs diff=lfs merge=lfs -text
+*.3ds filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+
+# === Configuración para archivos de proyecto de Visual Studio ===
+# Los archivos .sln deben usar fin de línea de Windows (CRLF)
+*.sln text eol=crlf
+
+# === Configuración general de texto ===
+# Asegura que todos los demás archivos de texto usen conversión automática
+* text=auto

@@ -1,0 +1,46 @@
+# === Archivos binarios ===
+*.class
+*.exe
+
+# === Archivos temporales de editores y logs ===
+*.log
+*.tmp
+*.swp
+
+# === Directorios de compilación ===
+/build/
+/target/
+
+# === Archivos de dependencias o cachés ===
+/out/
+/bin/
+/dist/
+
+# === Imágenes y archivos de música ===
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.mp3
+*.wav
+*.ogg
+*.flac
+
+# === Archivos del sistema operativo ===
+.DS_Store
+Thumbs.db
+
+# === Configuraciones locales de IDEs ===
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
